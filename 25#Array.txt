@@ -1,0 +1,24 @@
+**What is array?
+ Array is a collection of similar type of data items in a 
+ contiguos memory location.
+
+ *Why array?
+ We don't have to initialise similar kind of variables
+ whose value differs but DATAYPE is same.
+
+ NOTE: indexing of Array starts from 0.
+
+   Syntax: 
+            DATAYPE array_name[size];
+            eg: a[5] = {12,23,2,4,45,56}
+
+            value at index 0: 12
+            value at index 1: 23
+            value at index 2: 2
+            value at index 3: 4
+            value at index 4: 45
+            value at index 5: 56
+
+*Types of Array:
+ 1. 1-D Array
+ 2. 2-D Array

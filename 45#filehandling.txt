@@ -1,0 +1,10 @@
+**What is File Handling?
+Storing data in a file and accessing data from a file is called file Handling.
+
+File operations:
+
+1. Create             open new file -> fopen()
+2. Read                 fscanf() or fgetc()
+3. Write                fprintf() or fputc()
+4. Delete
+5. Copy

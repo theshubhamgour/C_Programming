@@ -1,0 +1,17 @@
+What is variable?
+variable is the name of memoery location
+where we store data.
+
+for eg: 
+ int a =110;
+
+ here int is datatype
+ a is variable name 
+ and 110 is the value of the variable.
+
+ Types of variable.
+
+ three types: 
+ local variable
+ global variable
+ static variable

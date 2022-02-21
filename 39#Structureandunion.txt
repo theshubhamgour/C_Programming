@@ -1,0 +1,37 @@
+****Structure and Union*****
+
+*Structure: Sum of all members = size of Structure.
+                int a; char b; float c :-> 7 byte
+
+*Union: Biggest member size = union size
+                int a; char b; float c :-> 4 byte
+
+
+**What is Structure?
+    Structure is a user-defined name which are used to store a group 
+    of different types of values.
+
+    Note:
+            1. Struct keyword is used to declare Structure
+            2. Structure allocates different memory for each member.
+            3. The size of Structure depends on the members of Structure.
+
+ Syntax: 
+            struct structure-name{
+                data-type var-name;
+            };
+
+
+**What is union?
+    Union is a user-defined name which is used to store a different 
+    types of values
+
+    Note:
+            1. Union keyword is used to declare union.
+            2. Union allocates same memory for each member.
+            3. The size of union depends on the biggest member of the union.
+
+    Syntax: 
+            union union-name{
+                //member of union;
+            };

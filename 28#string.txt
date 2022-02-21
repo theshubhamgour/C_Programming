@@ -1,0 +1,21 @@
+*What is String??
+Sting is a sequence of characters and it always ends with null ('\o')
+character
+
+Syntax: 
+  datatype var_name[]  ="Any Text ";
+
+
+  String pre-defined functions:-
+
+1. strlen() : Length
+2. strcpy() : Copy
+3. strcat() : Conctenate
+4. strcmp() : Compare
+5. strlwr() : Text to lower case
+6. strupr() : Test to upper case
+
+Sting input/output
+
+gets() : input
+puts() : output

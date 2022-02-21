@@ -1,0 +1,21 @@
+What is Datatype?
+Datatype specifies the size and type of values 
+that can be stored in an variable.
+
+there are two types of Datatype.
+Primary and Secondary
+
+*Primary:                              
+
+            void (0 byte)
+            char (1 byte)
+            int  (2- 4 byte)
+            float(4 byte)
+            double(8 byte)
+        
+ *Secondary:
+            (No fixed size depends upon the programmer, how many variablehe is using)
+            Array
+            pointer
+            structure
+            union

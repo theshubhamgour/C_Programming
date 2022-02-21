@@ -1,0 +1,19 @@
+*******Introduction to C*************
+ 
+    *What is C language?
+      C is a middle-level procedural oriented programming language  developed by 
+"Dennis Ritche" at AT&T's Bell lab in 1972 in USA.
+
+Syntax:
+
+#include<stdio.h>
+#include<conio.h>   //optional only in turbo c.
+void main(){
+    //Statement;
+}
+
+
+#include<stdio.h> -- # is called the preprocessor directive and stdio.h is a 
+standard library mostly used for I/O operations, and include links the library with the 
+preprocessor.
+

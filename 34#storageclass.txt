@@ -1,0 +1,17 @@
+*What is Storage class?
+Storage class defines the scope(till when it is accessable) and lifetime of variables
+and function.
+
+Types: 
+        1) auto     
+        2) static   
+        3) extern   
+        4) register 
+
+
+     (Storage Class)  (Memory)     (Default Value)   (Scope)           (Life-time)
+  1) auto              RAM             Garbage       Within block       Still block is active
+  2) static            RAM              0            Within block       Till termination
+  3) extern            RAM              0            Anywhere               ''
+  4) register          Register        Garbage       Within block       Still block is active
+

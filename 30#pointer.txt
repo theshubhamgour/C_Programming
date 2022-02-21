@@ -1,0 +1,26 @@
+*What is pointer?
+pointer is a variable that is able to hold address of 
+another variable.
+
+NOTE: 
+    while working with pointer we need to require two unary
+    operator i.e:
+
+    1) &: address of operator
+    2) *: value at address of operator
+
+    Syntax: 
+            datatype * var_name;
+
+    eg: int a=10, *p(pointer), **q(pointer to pointer);
+        p = &a;
+        q = &p;
+
+Types of pointer:
+ 
+ 1) void pointer
+ 2) wild pointer
+ 3) null pointer
+ 4) dangling pointer
+ 5) pointer to pointer
+ 6) function pointer

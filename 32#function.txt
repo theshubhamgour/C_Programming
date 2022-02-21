@@ -1,0 +1,28 @@
+**What is function??
+Function is a block of code which take input from the user, process it
+and produce output.
+
+    NOTE: Functions run only when it is called.
+
+    Tyoes of function: 
+    
+                * user-defined: //for personal use of user
+                    void add();
+                    int sum();
+                    void m1();
+                    void main();
+
+
+                *pre-defined: //already defined 
+                    printf();
+                    scanf();
+                    strcpy();
+                    puts(); 
+
+  *User-defined function: 
+            Syntax: 
+                 return-type function-name(){
+                     //Statement;
+                 }
+
+                 

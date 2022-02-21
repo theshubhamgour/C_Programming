@@ -1,0 +1,58 @@
+**loops**
+
+*What is loop?
+Loop is used to repeat a block of code until the given condition is true.
+
+*Types:
+
+1. while loop 
+2. do-while loop
+3. for loop
+4. Nested loop (A loop inside a loop is called a Nested loop)
+
+
+*While loop:
+ 
+  Syntax: 
+            while(condition){
+                Statement;
+            }
+
+
+*do-while loop: 
+
+  Syntax:
+            do{
+                Statement;
+            }while(condition);
+
+
+*for loop: 
+
+   Syntax:
+            for(intitalization;condition;increment/decrement){
+                Statement;;
+            }
+
+
+
+*Nested loop:
+  Syntax:
+            for(intitalization;cond];increment/decrement)
+            {
+
+                for(intitalization;cond];increment/decrement)
+                {
+                    
+                }
+            }
+
+***Jumping Statement: 
+
+*break (terminate from a particular block)
+*continue (Skip)
+*exit (exit from program)
+*goto (we can do repeated task using goto just like loops)
+*return (used for returning a value) //we will discuss it later in the video
+
+ 

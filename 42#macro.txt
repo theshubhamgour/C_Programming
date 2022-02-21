@@ -1,0 +1,15 @@
+**What is Macro?
+Macro is a name which replace value, expression in place of a 
+variable and function.
+
+Types: 
+1. Simple Macro
+2. Function Macro
+
+Simple Macro: 
+   Syntax: 
+            #define macro_name value
+
+function: 
+    Syntax:
+            #define macro_name(expression)

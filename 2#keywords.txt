@@ -1,0 +1,18 @@
+What is keywords?
+Keyword is a reserved word whose meaning is already defined
+in the compiler.
+
+Note there are 32 Keywords.
+
+int      | char     | float   |  double
+return   | register | auto    |  void
+continue | break    | goto    |  extern
+do       | switch   | case    |  while
+else     | if       | const   |  for
+enum     | signed   | unsigned|  static
+union    | struct   | short   |  sizeof 
+typeof   | volatile | default |  long
+
+We can't intialise a keyword
+for eg: int float; (THIS IS INCORRECT)
+int a; (THIS IS CORRECT)

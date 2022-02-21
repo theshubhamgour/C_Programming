@@ -1,0 +1,21 @@
+*What are identifiers?
+identifiers refers to the name that is used to
+identify variables, functions and so on.
+
+*What is operator?
+operator is a symbol that tells the compiler 
+to perform mathematical and logical task.
+
+types of operator.
+
+1 artithmetic operator (+ , - , * , /, %)
+2. relational operator (< , > <= , >= , == , !=)
+3. logical operator (&& , || , !)
+4. increment/decrement operator (++ , --)
+     
+     //Two sub-types of  (increment/decrement) operator
+        pre-increment / pre decrement (++a, --a)
+        post- increment/ post - decrement (a ++, a-- )
+
+5. Ternary operator (?, :) //used of comparing two or more values
+6. Assignent operator (=) //for assigning a value

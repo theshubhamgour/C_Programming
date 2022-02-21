@@ -1,0 +1,89 @@
+****Conditional Statement****
+1. if Statement (for single Condition)
+2. if-else Statement (for double Condition)
+3. if else if Statement (for triple Condition)
+4. Nested if Statement (for multiple Condition)
+5. switch Statement (for a precise Condition)
+
+*What is if Statement?
+if Statement is used when we want to test a Condition
+
+  Syntax(Grammer of program)
+
+            if(Condition)
+            {
+                //Statement;
+            }
+
+*What is if-else Statement?
+it is used to execute two Statement either if Statement or 
+else Statement for a single Condition.
+
+ Syntax:
+  
+            if(Condition){
+                //Statement;
+            } 
+            else{
+                //Statement;
+            }
+
+*What is if else if ladder Statement?
+if else if Statement is used when we have multiple (more than two) conditions.
+
+Syntax: 
+            if(Condition){
+                //Statement;
+            }
+            else if{
+                //Statement2;
+            }
+            else if{
+                //Statement3;
+            }
+            .
+            .
+            .
+            .else{
+                //Statementn;
+            }
+
+*What is Nested if Statement?
+Whenever we define if-else block inside another if-else block
+it is called Nested if else Statement.
+
+  Syntax: 
+
+            if(Condition1) {
+                if(Condition2){
+                    if(Condition3){
+                        //Statement;
+                    }
+                    else{
+                        //Statement;
+                    }
+                }
+            }
+
+*What is switch Statement?
+Switch Statement is used when we want to select any one case  out of multiple cases.
+
+  Syntax:
+
+            switch(expression){
+                case 1:
+                Statement;
+                break;
+
+                case 2:
+                Statement;
+                break;
+
+                case 3:
+                Statement;
+                break;
+
+                default:
+                Statement;
+                break;
+            }
