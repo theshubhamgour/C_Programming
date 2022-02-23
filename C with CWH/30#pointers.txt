@@ -1,0 +1,50 @@
+Pointer :
+
+         *  Pointer is a variable that contains address of another variable. 
+         *  It means it is a variable but this variable contains address or 
+                memory address of any other variable.
+         *  It can be of type int, char, array, function, or any other pointer.
+                Its size depends on architecture.
+         *  Pointers in C Language can be declared using *(asterisk symbol).
+
+*Some of the operators which we use with Pointers :
+
+Address of Operator (&) :
+·      It is a unary operator.
+
+·      Operand must be the name of the variable.
+
+·      & operator gives address no. of variable.
+
+·      & is also known as “Referencing Operator”.
+
+ 
+
+Indirection Operator :
+·      * is indirection operator.
+
+·      It is also known as “Dereferencing Operator”.
+
+·      It is a unary operator.
+
+·      It takes address as an argument.
+
+·      * returns the content/container whose address is it’s argument. 
+
+ 
+ 
+*Null Pointer : 
+                  
+                 * A pointer that is not assigned any value but NULL is known as NULL pointer.
+                 * In computer programming NULL pointer is a pointer that does not point to any object, variable or function.
+                 * We can use it to initialize a pointer variable when that pointer variable isn’t assigned any valid memory address yet.
+                            int *ptr = NULL;
+
+Uses of Pointers:
+·      Dynamic Memory Allocation
+
+·      Arrays, Functions and Structures
+
+·      Return multiple values from a function
+
+·      Pointer reduces the code and improves the performance

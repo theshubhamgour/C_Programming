@@ -1,0 +1,47 @@
+**Functions :
+             * Functions are used to divide a large C program into smaller pieces.
+             * Function can be called multiple or several times to provide reusability and modularity to the C program.
+             * Functions are also called as procedure or subroutines.
+             * It is a piece of code to accomplish certain operation.
+
+
+*Now let’s understand in simple terms what function is?
+                Function is nothing but a group of code put together and given a name and it can be called anytime 
+                without writing the whole code again and again in a program.
+
+*Advantages of Functions :
+                   * We can avoid rewriting same logic or code through functions.
+                   * We can divide the work among programmers using functions.
+                   * We can easily debug or can find bugs in any program using functions.
+
+Function Aspects :
+There are 3 aspects of function :-
+
+(1)Declaration : A function is declared to tell the compiler about its existence.
+
+(2)Definition : A function is defined to get some task done. (It means when we define function we write whole code of that function. 
+                In this actual implementation of function is done.)
+
+(3)Call : A function is called in order to be used.
+ 
+
+
+*Types of Functions :
+
+                        (1)Library Functions – These are pre-defined functions in C Language. 
+                                            These are the functions which are included in C header files.
+
+                        (2)User defined Functions – Functions created by programmer to reduce complexity of a program 
+                                                    i.e. these are the functions which are created by user or programmer.
+
+
+
+**Ways to define a Function :
+
+        There are 4 ways in which we can define any C Function and these are :
+
+                                                                            *Without arguments and without return value.
+                                                                            *Without arguments and with return value.
+                                                                            *With arguments and without return value.
+                                                                            *With arguments and with return value.          
+                                                                            
