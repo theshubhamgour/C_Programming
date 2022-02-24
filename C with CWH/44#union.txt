@@ -1,0 +1,38 @@
+**What are the similarities between Structure and Union??
+            Structure and union are user-defined data types used to store data of different types.
+            The members of structure and union can be objects of any type, including other structures and unions or arrays.
+            A union or a structure can be passed by value to functions and returned by value by functions.
+            ‘.’ operator is used for accessing union and structure members.
+
+
+
+*What are the differences between Structure and Union
+        * The keyword union is used to define a union and a keyword struct is used to define the structure
+        * Each member within a structure is assigned a unique storage area of location whereas memory allocated is shared by individual members of the union.
+        * Individual members can be accessed at a time in structure whereas only one member can be accessed at a time in union
+        * Altering the value of the member will not affect other members of the structure, whereas altering the value of any member will affect other member's values.
+        * Several members of a structure can be initialized at once, whereas only one member can be initialized in union
+
+
+
+***IN nutshell, union will take less space than structure****
+
+
+eg:           
+                           struct books
+                            {
+                                int pages;
+                                float price;
+                                char title[20];     //here the size of struct is: int+float+char =13
+                            }b1
+
+    
+    whereas,
+
+
+                                 union books
+                                {
+                                    int pages;
+                                    float price; 
+                                    char title[20];   //here the size of union wi;; be same as that of float(since float is the largest datatype here)
+                                }b1
