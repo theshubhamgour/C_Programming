@@ -1,0 +1,13 @@
+*Local Variables
+                Local variables are declared inside a function or a block of code; 
+                they cannot be accessed outside the function.
+                The system does not initialize local variables, we must initialize it ourself.
+                The scope of these variables will be within the function only.
+
+*Global Variables
+                Global variables are defined outside a function.
+                Global variables hold their values, and we can access them inside any of the
+                functions defined for the program. Global variables are initialized by the 
+                system automatically when we define them.
+
+                If the local and global variables have the same name, the local variable will take preference.

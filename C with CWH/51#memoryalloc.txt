@@ -1,0 +1,24 @@
+For the allocation of memory using the heap, we have four functions:
+
+                                                                       * Malloc
+                                                                       * Calloc 
+                                                                       * Realloc 
+                                                                       * Free
+
+*malloc():
+            malloc stands for memory allocation. As can be guessed by its name, it requests memory 
+            from the heap and returns a pointer to the memory                                                                       
+
+*calloc():
+            calloc stands for contiguous allocation. It also requests memory from the heap and returns a pointer 
+            to the memory and has the same functionality as malloc().
+
+*realloc():
+            realloc stands for reallocation. It is used in cases where the dynamic memory is insufficient or wants to increase the 
+            already allocated memory to store more data. Its syntax is simple as we just have to overwrite the memory already 
+            allocated as a parameter in the function while providing the data related to the pointer. 
+
+*free():
+            We have to free up the allocated memory space manually as there is no automatic procedure for that. 
+            So free is used to free up the space occupied by the allocated memory.
+
